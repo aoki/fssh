@@ -9,6 +9,18 @@ Copy `fssh` function into the your `.bashrc` or `.zshrc` or etc.
 Or, copy the `fssh` file into functions directory.
 After that, to set aliases like a below.
 
+## Options
+You can customize some behavior using environment variables.
+
+
+| NAME | DESCRIPTION | DEFAULT |
+|------|-------------|---------|
+|`BASTION`| Specify host to login with ssh by way of BASTION server. ||
+|`GREP_WORD`| Specify word to filter hosts. |`dev`|
+|`FSSH_LS_INSTANCE`| List instances command. |[`els`](github.com/ringohub/els)|
+|`FSSH_FILTER`| Incremental filter command. | [`fzf`](https://github.com/junegunn/fzf) |
+
+
 ## Sample Aliases
 
 For example, set arbitrary `BASTION` via environment variable and specify `GREP_WORD` at each environment(like a dev, stage and prod).
