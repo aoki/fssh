@@ -17,7 +17,7 @@ You can customize some behavior using environment variables.
 |------|-------------|---------|
 |`BASTION`| Specify host to login with ssh by way of BASTION server. ||
 |`GREP_WORD`| Specify word to filter hosts. |`dev`|
-|`FSSH_LS_INSTANCE`| List instances command. |[`els`](github.com/ringohub/els)|
+|`FSSH_LS_INSTANCE`| List instances command. |[`els`](https://github.com/ringohub/els)|
 |`FSSH_FILTER`| Incremental filter command. | [`fzf`](https://github.com/junegunn/fzf) |
 
 
