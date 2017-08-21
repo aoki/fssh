@@ -9,6 +9,12 @@ Copy `fssh` function into the your `.bashrc` or `.zshrc` or etc.
 Or, copy the `fssh` file into functions directory.
 After that, to set aliases like a below.
 
+### Using zplug
+
+```zsh
+zplug ringohub/fssh, use:fssh.zsh, from:github
+```
+
 ## Options
 You can customize some behavior using environment variables.
 
